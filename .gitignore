@@ -1,3 +1,25 @@
+# FILE
+FILE/
+*.nb
+*.zip
+*.tar
+*.txt
+*.tar.gz
+
+# DATA
+DATA/
+*.pkl
+*.hdf5
+
+# LOG
+LOG/
+*.out
+*.log
+
+# PLOT
+PLOT/
+*.pdf
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
