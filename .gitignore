@@ -3,7 +3,6 @@ FILE/
 *.nb
 *.zip
 *.tar
-*.txt
 *.tar.gz
 
 # DATA

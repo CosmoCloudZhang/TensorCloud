@@ -11,16 +11,12 @@ def element1(chi1, chi2, power1, power2, redshift1, redshift2):
     if a == 1:
 
         formula = (63 - 41 * z) / 25200
-        print(formula)
-        print("a=1")
 
     else: 
 
         formula =(1 / (720 * a**4)) * (a * (10 * a * (12 * a * ( - 6 + ( - 3 + a) * a) + (60 + a * (30 + (20 - 9 * a) * a)) * y) + 
 (10 * a * (60 + a * (30 + (20 - 9 * a) * a)) + 9 * ( - 60 + a * ( - 30 + a * ( - 20 + a * ( - 15 + 8 * a)))) * y) * z) + 
 60 * ( - 12 * a**2 - 9 * y * z + 10 * a * (y + z) + a**4 * (6 - 4 * y - 4 * z + 3 * y * z)) * numpy.log(1 - a))
-        print(formula)
-        print("a=!1")
 
     coefficient = chi2* power2 * (1 + redshift2) * formula
     
